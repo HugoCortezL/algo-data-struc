@@ -1,7 +1,7 @@
 import pytest
 from Algorithms.Arrays import bubble_sort
 
-class TestBinarySearch():
+class TestBubbleSort():
 
     def test_sort_empty_list(self):
         data = []

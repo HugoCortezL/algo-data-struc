@@ -1,7 +1,7 @@
 import pytest
 from Algorithms.Arrays import recursive_binary_search
 
-class TestBinarySearch():
+class TestRecursiveBinarySearch():
 
     @pytest.fixture
     def setup_data(self):

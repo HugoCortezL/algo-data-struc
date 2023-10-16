@@ -1,7 +1,7 @@
 import pytest
 from Algorithms.Arrays import selection_sort
 
-class TestBinarySearch():
+class TestSelectionSort():
 
     def test_sort_empty_list(self):
         data = []
