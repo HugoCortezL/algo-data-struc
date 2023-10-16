@@ -37,8 +37,3 @@ def binary_search(array, target):
         else:
             end = mid - 1
     return -1
-
-
-a = [1, 4, 6, 8, 10, 15, 20, 24, 36, 47, 60]
-t = recursive_binary_search(a, 3)
-print(t)
