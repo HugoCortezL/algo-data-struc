@@ -1,7 +1,7 @@
 import pytest
 from Algorithms.Arrays import rotation_left
 
-class TestRotationRightArray():
+class TestRotationLeftArray():
 
     def test_rotation_left_empty_list(self):
         data = []
