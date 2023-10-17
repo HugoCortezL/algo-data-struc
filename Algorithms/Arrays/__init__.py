@@ -5,6 +5,9 @@ from .bubble_sort import bubble_sort
 from .insertion_sort import insertion_sort
 from .rotation import rotation_right, rotation_left
 from .invert_array import invert_array
+from .quick_sort import quick_sort
+from .merge_sort import merge_sort
+from .heap_sort import heap_sort
 
 __doc__ = "All arrays algorithms"
 
@@ -17,5 +20,8 @@ __all__ = [
     insertion_sort,
     rotation_right, 
     rotation_left,
-    invert_array
+    invert_array,
+    quick_sort,
+    merge_sort,
+    heap_sort
 ]
