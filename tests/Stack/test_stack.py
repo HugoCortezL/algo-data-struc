@@ -30,7 +30,7 @@ class TestStack:
         with pytest.raises(EmptyStackException):
             stack.pop()
         for item in [1, 2, 3, 4, 5]:
-            stack.add(item)
+            stack.push(item)
         assert stack.pop() == 5
         assert stack.pop() == 4
         assert stack.is_empty() is False
