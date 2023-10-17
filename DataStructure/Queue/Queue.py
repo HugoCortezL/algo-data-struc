@@ -13,16 +13,16 @@ class Queue:
     def size(self):
         return len(self.items)
     
-    def add(self, element):
+    def enqueue(self, element):
         self.items.append(element)
         return True
     
-    def peek(self):
+    def front(self):
         if self.is_empty():
             raise EmptyQueueException()
         return self.items[0]
     
-    def poll(self):
+    def dequeue(self):
         if self.is_empty():
             return None
         return self.items.pop(0)
