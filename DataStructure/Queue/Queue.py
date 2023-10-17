@@ -24,5 +24,5 @@ class Queue:
     
     def dequeue(self):
         if self.is_empty():
-            return None
+            raise EmptyQueueException()
         return self.items.pop(0)
